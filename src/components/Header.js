@@ -14,7 +14,7 @@ function Header() {
         <ul id='header-nav'>
             <li><AiOutlineHome/></li>
             <li><GrDocumentVerified/></li>
-            <li><img src='img/profile.jpeg'/></li>
+            <li></li>
         </ul>
     </div>
   )
