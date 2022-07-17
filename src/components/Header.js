@@ -1,20 +1,19 @@
+// 라이브러리
 import React from 'react'
-// css
 
-// react-icon
-import { AiOutlineHome } from 'react-icons/ai'
-import { GrDocumentVerified } from 'react-icons/gr'
+// css
+import '../styles/components/header.scss'
 
 function Header() {
   return (
-    <div id='header'>
-        <div id='header-logo'>
-            <h1>Portfolio</h1>
-        </div>
+    <div>
+      <header>
+        <h1 class='header-logo'>Portfolio</h1>
+      </header>
         <ul id='header-nav'>
-            <li><AiOutlineHome/></li>
-            <li><GrDocumentVerified/></li>
-            <li></li>
+          <li>Intro</li>
+          <li>Resume</li>
+          <li>Contact</li>
         </ul>
     </div>
   )
